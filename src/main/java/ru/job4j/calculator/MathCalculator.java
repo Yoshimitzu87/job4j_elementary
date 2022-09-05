@@ -9,7 +9,7 @@ public class MathCalculator {
     }
 
     public static double diffAndDivide(double first, double second) {
-        return diff(first, second) + divide(first, second);
+        return diff(first,  second) + divide(first, second);
     }
 
     public static double sumAndMultiplyAndDivideAndDiff(double first, double second) {

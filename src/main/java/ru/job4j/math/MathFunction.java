@@ -6,7 +6,7 @@ public class MathFunction {
         return first + second;
     }
 
-    public static double multiply(double first, double second) {
+    public static double multiply(double  first, double second) {
         return first * second;
     }
 
