@@ -1,0 +1,25 @@
+package ru.job4j.condition;
+
+public class Game {
+    public static void menu(String name) {
+        if ("super mario".equals(name)) {
+            System.out.println("Start - super mario");
+        }
+        if ("tanks".equals(name)) {
+            System.out.println("Start - tanks");
+        }
+        if ("tetris".equals(name)) {
+            System.out.println("Start - tetris");
+        }
+        if ("DOOM".equals(name)) {
+            System.out.println("Start - DOOM");
+        }
+    }
+
+    public static void main(String[] args) {
+        Game.menu("tanks");
+        Game.menu("super mario");
+        Game.menu("tetris");
+        Game.menu("DOOM");
+    }
+}
