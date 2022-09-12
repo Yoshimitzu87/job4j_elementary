@@ -18,7 +18,7 @@ public class PointTest {
     }
 
     @Test
-    public void when56to67then1() {
+    public void when56to67then1dot41() {
         double expected = 1.41;
         int x1 = 5;
         int y1 = 6;
