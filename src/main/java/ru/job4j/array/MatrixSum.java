@@ -8,8 +8,8 @@ public class MatrixSum {
                 int val = array[row][cell];
                 rsl = rsl + val;
 
-    }
-}
+            }
+        }
         return rsl;
     }
 }
