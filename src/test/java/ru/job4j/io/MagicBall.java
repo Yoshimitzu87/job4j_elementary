@@ -14,7 +14,7 @@ public class MagicBall {
             case (0) -> System.out.println("Yes");
             case (1) -> System.out.println("Nope");
             case (2) -> System.out.println("Maybe");
+            default -> System.out.println("bye!");
         }
-
     }
 }
