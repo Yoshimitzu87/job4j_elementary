@@ -15,7 +15,7 @@ public class Matches {
 
             if (matches <= 3 && matches <= count) {
                 count = count - matches;
-                System.out.println("Осталось спичек на столе : " + count);
+                System.out.println("Осталось спичек на столе: " + count);
             } else {
                 System.out.println("Ошибка!");
             }
